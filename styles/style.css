@@ -256,3 +256,76 @@ body{
     border-radius: 48px;
 }
 
+/* form */
+
+.form-container{
+    height: 600px;
+    margin: 50px 100px;
+    border-radius: 24px;
+   
+    
+   
+    
+    border-radius: 24px;
+    padding-top: 71px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+}
+label{
+    font-weight: 500;
+    font-style: 18px;
+  
+    
+}
+.form-header{
+    width: 70%;
+}
+.form-header h1{
+    font-weight: bold;
+    font-size: 97px;
+    
+}.info{
+    width: 30%;
+}
+#email{
+    height: 40px;
+    width: 93%;
+    padding: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      border: 1px solid #D6DDED;
+  
+}
+#full-name{
+    height: 40px;
+    width: 93%;
+    padding: 10px;
+     margin-bottom: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      border: 1px solid #D6DDED;
+  
+
+  
+}
+#textarea{
+      height: 70px;
+    width: 93%;
+    padding: 10px;
+     margin-bottom: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      border: 1px solid #D6DDED;
+  
+
+}
+.wi{
+    width: 100%;
+    
+}
+
+
