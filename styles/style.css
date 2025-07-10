@@ -1,12 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Raleway", sans-serif;
    
-}
-
-.raleway{
-     font-family: "Raleway", sans-serif;
-
 }
 .inter{
     font-family: "Inter", sans-serif;
@@ -79,4 +75,50 @@
     width: 190px;
     cursor: pointer;
 
+}
+/* action */
+
+.action{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding:50px 100px ;
+    align-items: center;
+}
+.action-para h2{
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+
+}
+.action-para p{
+    
+    color: rgba(38, 36, 50, 0.5);
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.btn-live{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    height: 48px;
+    width: 229px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+.btn-live:hover{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 240px;
+    cursor: pointer;
+
+}
+.action-img{
+    border-radius: 48px;
 }
