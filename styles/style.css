@@ -201,11 +201,11 @@ body{
 
 .p2{
    
-    color: #252432;
+    
     font-size: 16px;
     
     margin-bottom: 24px;
-      color: rgba(0, 0, 0, 0.5);
+      color: rgba(0, 0, 0, 1);
 
 
 
@@ -325,7 +325,52 @@ label{
 }
 .wi{
     width: 100%;
+
+}
+footer{
+    width: 100%;
+    height: 428px;
+    background-color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+footer h1{
+    font-weight: 900;
+    color: #4E47FF;
+    font-size: 100px;
+      margin-bottom: 8px;
+   
+}
+footer p{
+    font-size: 13px;
+    color: rgba(137, 135, 161, 1);
+  
+
+
+}
+.footer-items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 40%;
+    padding-top: 20px;
+   
     
 }
+.footer-items li{
+     list-style: none;
+    
 
+
+}
+.footer-items li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+     font-size: 13px;
+     color: rgba(137, 135, 161, 1);
+     
+
+
+}
 
